@@ -50,3 +50,4 @@ Route::group(['middleware' => config('fortify.middleware', ['web'])], function (
         ->middleware(['auth'])
         ->name('user-profile-photo.update');
 });
+
